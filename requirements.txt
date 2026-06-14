@@ -1,0 +1,31 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Neural network and utilities
+numpy>=1.24.0
+dataclasses  # built-in in Python 3.7+
+
+# Tokenization (for GPT notebook)
+tiktoken>=0.5.0
+
+# Data handling (for GPT notebook)
+jsonlines>=4.0.0
+
+# Optional but recommended for better performance
+einops>=0.6.0
+tqdm>=4.65.0
+
+# For training utilities
+tensorboard>=2.14.0
+
+# For data processing
+datasets>=2.14.0
+transformers>=4.35.0  # for reference/comparison, not strictly required
+
+# For Jupyter notebooks
+ipykernel>=6.25.0
+jupyter>=1.0.0
+
+# For visualization (optional)
+matplotlib>=3.7.0
